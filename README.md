@@ -55,6 +55,7 @@ Visit: http://localhost:8501
 
 Upload a CSV of URL features → Click Predict → See results in table + download option
 
+
 🧪 Input / Output Format
 
 Input: CSV file where each row has feature columns like:
@@ -66,19 +67,30 @@ Output is shown in table in UI; also saved in prediction_output/output.csv.
 🛠 Technologies & Libraries
 
 Python 3.x
+
 FastAPI — backend API
+
 Streamlit — frontend UI
+
 Pandas, NumPy, scikit-learn — data & ML
+
 MongoDB — optional for data storage
+
 Jinja2 — HTML templating for backend
+
 Includes custom modules for logging, exception handling, and ML pipelines.
+
 
 🚀 Deployment — Streamlit Community Cloud
 
 Make sure your repo has streamlit_app.py, requirements.txt, and all required files.
+
 Push changes to GitHub main branch.
+
 Go to Streamlit Cloud → New app → pick your repo, branch & file → Deploy.
+
 Once deployed, copy the public URL and update the Live Demo link above.
+
 
 📝 Notes & Tips
 
