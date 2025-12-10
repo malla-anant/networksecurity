@@ -59,8 +59,11 @@ Upload a CSV of URL features → Click Predict → See results in table + downlo
 🧪 Input / Output Format
 
 Input: CSV file where each row has feature columns like:
+
 having_IP_Address, URL_Length, Shortining_Service, having_At_Symbol, ...
+
 Output: Same data plus a new column predicted_column (e.g., 1.0 for malicious, 0.0 for benign).
+
 Output is shown in table in UI; also saved in prediction_output/output.csv.
 
 🛠 Technologies & Libraries
