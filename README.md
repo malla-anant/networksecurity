@@ -97,8 +97,11 @@ Upload a CSV of URL features → Click Predict → See results in table + downlo
 📝 Notes & Tips
 
 - Ensure your trained model and preprocessor files are present under final_model/.
+  
 - Input CSV must match the feature schema expected by the model.
+  
 - Dependencies are managed via requirements.txt.
 
 👤 Author
+
 Malla Anant
