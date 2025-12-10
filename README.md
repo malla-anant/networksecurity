@@ -58,38 +58,47 @@ Upload a CSV of URL features → Click Predict → See results in table + downlo
 
 🧪 Input / Output Format
 
-Input: CSV file where each row has feature columns like:
+- Input: CSV file where each row has feature columns like:
 
-having_IP_Address, URL_Length, Shortining_Service, having_At_Symbol, ...
+- having_IP_Address, URL_Length, Shortining_Service, having_At_Symbol, ...
 
-Output: Same data plus a new column predicted_column (e.g., 1.0 for malicious, 0.0 for benign).
+- Output: Same data plus a new column predicted_column (e.g., 1.0 for malicious, 0.0 for benign).
 
-Output is shown in table in UI; also saved in prediction_output/output.csv.
+- Output is shown in table in UI; also saved in prediction_output/output.csv.
 
 🛠 Technologies & Libraries
 
-Python 3.x
-FastAPI — backend API
-Streamlit — frontend UI
-Pandas, NumPy, scikit-learn — data & ML
-MongoDB — optional for data storage
-Jinja2 — HTML templating for backend
-Includes custom modules for logging, exception handling, and ML pipelines.
+- Python 3.x 
+
+- FastAPI — backend API
+
+- Streamlit — frontend UI
+
+-nPandas, NumPy, scikit-learn — data & ML
+
+- MongoDB — optional for data storage
+
+- Jinja2 — HTML templating for backend
+
+- Includes custom modules for logging, exception handling, and ML pipelines.
 
 
 🚀 Deployment — Streamlit Community Cloud
 
-Make sure your repo has streamlit_app.py, requirements.txt, and all required files.
-Push changes to GitHub main branch.
-Go to Streamlit Cloud → New app → pick your repo, branch & file → Deploy.
-Once deployed, copy the public URL and update the Live Demo link above.
+- Make sure your repo has streamlit_app.py, requirements.txt, and all required files.
+
+- Push changes to GitHub main branch.
+
+ - Go to Streamlit Cloud → New app → pick your repo, branch & file → Deploy.
+
+- Once deployed, copy the public URL and update the Live Demo link above.
 
 
 📝 Notes & Tips
 
-Ensure your trained model and preprocessor files are present under final_model/.
-Input CSV must match the feature schema expected by the model.
-Dependencies are managed via requirements.txt.
+- Ensure your trained model and preprocessor files are present under final_model/.
+- Input CSV must match the feature schema expected by the model.
+- Dependencies are managed via requirements.txt.
 
 👤 Author
 Malla Anant
