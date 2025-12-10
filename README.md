@@ -7,7 +7,7 @@
 ## 🌐 Live Demo / Web App
 
 You can try the deployed app here:  
-**[🛡️ Network Security Prediction App – Streamlit Cloud]([https://YOUR-STREAMLIT-APP-URL_HERE](https://malla-anant-networksecurity-streamlit-app-ri7wmo.streamlit.app/))**
+**[🛡️ Network Security Prediction App – Streamlit Cloud]([(https://malla-anant-networksecurity-streamlit-app-ri7wmo.streamlit.app/)])**
 
 ---
 
