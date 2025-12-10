@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Data Table</title>
+    <title>Prediction Result</title>
     <style>
         table {
-            border-collapse: collapse;
             width: 100%;
+            border-collapse: collapse;
+            font-family: Arial;
         }
         th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
+            padding: 10px;
+            border: 1px solid #444;
+            text-align: center;
+        }
+        th {
+            background: #333;
+            color: white;
         }
     </style>
 </head>
 <body>
-    <h2>Predicted Data</h2>
+
+<h2>Prediction Output</h2>
+<div>
     {{ table | safe }}
+</div>
+
 </body>
 </html>
