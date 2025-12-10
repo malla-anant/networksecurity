@@ -34,10 +34,10 @@ cd networksecurity
 2. Create a virtual environment
 
 python -m venv venv
-# Windows
+Windows
 venv\Scripts\activate
-# macOS / Linux
-# source venv/bin/activate
+macOS / Linux
+source venv/bin/activate
 
 3. Install dependencies
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 4. Run backend (FastAPI)
 
-# Start the backend using Uvicorn with auto-reload
+Start the backend using Uvicorn with auto-reload
 uvicorn app:app --reload
 
 5. Run frontend (Streamlit)
